@@ -1,4 +1,4 @@
-# 🎮 Solana Pokémon cNFT Marketplace
+# 🎮 Solana Pokémon cNFT Marketplace 🐉
 
 A decentralized marketplace for **Pokémon-themed compressed NFTs (cNFTs)** on **Solana**, built using:
 
