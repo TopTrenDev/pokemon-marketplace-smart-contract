@@ -1,0 +1,19 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+nft_auction_house_smart_contract = "988hJvsyGwL2TM5WRGKdAxWAUvWx97dDQANPiRt5Mukn"
+
+[registry]
+url = "https://devnet.helius-rpc.com/?api-key=6c89f208-1da7-457d-bce2-19eee95e1330"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
